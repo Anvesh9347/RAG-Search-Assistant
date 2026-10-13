@@ -1,6 +1,6 @@
 RAG Assistant with External Knowledge
 
-A Retrieval-Augmented Generation (RAG) assistant built with LangChain and LangGraph and deployed on Streamlit. It answers questions from your own sources (web URLs, PDFs, text files) and uses Wikipedia for general knowledge.
+A Retrieval-Augmented Generation (RAG) assistant built with LangChain and LangGraph and deployed on Streamlit. It answers questions from our own sources (web URLs, PDFs, text files) and uses Wikipedia for general knowledge.
 
 What I built
 Document loading and chunking (document_processor.py): loads content from URLs, PDF folders and text files, then splits it into chunks (size 500, overlap 250) with RecursiveCharacterTextSplitter.
